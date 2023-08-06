@@ -6,7 +6,6 @@ import Head from 'next/head'
 import { EmploymentFormsHeader, Preloader } from '@/components/layout'
 import Link from 'next/link'
 import { NextSeo, ArticleJsonLd } from 'next-seo';
-import { Helmet } from 'react-helmet';
 
 
 
@@ -48,14 +47,6 @@ const Index: NextPage = () => {
 
   return (
     <main className="scroll-smooth">
-      <NextSeo {...SEO} />
-        <Helmet>
-          <meta charSet="utf-8" />
-          <title>Glenn Howard Steinberg</title>
-          <meta name="description" content="Glenn Howard Steinberg" />
-          <meta name="viewport" content="width=device-width, initial-scale=1" />
-        </Helmet>
-
 
       <NextSeo {...SEO} />
         <ArticleJsonLd
