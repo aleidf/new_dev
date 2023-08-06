@@ -458,7 +458,9 @@ const Index: NextPage = () => {
                         </g>
                       </svg>
                       <p className="ml-7 mt-3 max-w-[400px] text-justify text-[13px] text-[#666666]">
-                        "Whatever your personal goals may be, I will work with you to develop a personalized financial approach designed to help you pursue what’s most important to you."
+                        "Whatever your personal goals may be, I will work with you to develop a
+                        personalized financial approach designed to help you pursue what’s most
+                        important to you."
                       </p>
                       <div className="flex w-full max-w-[500px] justify-end">
                         <svg
@@ -614,7 +616,9 @@ const Index: NextPage = () => {
                         </g>
                       </svg>
                       <p className="ml-7 mt-3 max-w-[400px] text-justify text-[13px] text-[#666666]">
-                        "Whatever your personal goals may be, I will work with you to develop a personalized financial approach designed to help you pursue what’s most important to you."
+                        "Whatever your personal goals may be, I will work with you to develop a
+                        personalized financial approach designed to help you pursue what’s most
+                        important to you."
                       </p>
                       <div className="flex w-full max-w-[500px] justify-end">
                         <svg
@@ -845,7 +849,9 @@ const Index: NextPage = () => {
                         <p className="text-xs">
                           Learn more about an advisor's background on <br />
                           <Link href="https://brokercheck.finra.org/individual/summary/4855320">
-                            <a className="underline" target="_blank">{'HERE'}</a>
+                            <a className="underline" target="_blank">
+                              {'HERE'}
+                            </a>
                           </Link>
                         </p>
                       </li>
@@ -1071,7 +1077,9 @@ const Index: NextPage = () => {
                         <p className="text-xs">
                           Learn more about an advisor's background <br />
                           <Link href="https://brokercheck.finra.org/individual/summary/4855320">
-                            <a className="underline" target="_blank">{'HERE'}</a>
+                            <a className="underline" target="_blank">
+                              {'HERE'}
+                            </a>
                           </Link>
                         </p>
                       </li>
@@ -1236,7 +1244,9 @@ const Index: NextPage = () => {
                 <div className="footer-bottom-box">
                   <div className="row -mx-[15px] flex flex-wrap">
                     <div className="col-lg-6">
-                      <p className="">© Copyright 2023. All Rights Reserved by Glenn Howard Steinberg.</p>
+                      <p className="">
+                        © Copyright 2023. All Rights Reserved by Glenn Howard Steinberg.
+                      </p>
                     </div>
                     <div className="col-lg-6 link text-right"></div>
                   </div>
@@ -1248,18 +1258,18 @@ const Index: NextPage = () => {
           <footer className="bg-dark text-light block md:hidden">
             <div className="container">
               <div className="f-items default-padding py-[120px]">
-                <div className="row -mx-[15px] flex flex-wrap">
-                  <div className="col-lg-4 col-md-6 item basis-1/3">
-                    <div className="f-item about ">
-                      <img src="/images/logo.png" alt="Logo" className="" />
-                      <p>LISA ELLEN SHAW</p>
+                <div className="row -mx-[15px] flex flex-col">
+                  <div className="col-lg-4 col-md-6 item">
+                    <div className="f-item about px-3">
+                      <img src="/images/logo.png" alt="Logo" className="h-[87px] w-[168px]" />
+                      <p>GLENN H. STEINBERG</p>
                     </div>
                   </div>
 
                   <div className="col-lg-3 col-md-6 item contact_side basis-1/4">
                     <div className="f-item contact-widget">
                       <h4 className="widget-title">Contact Info</h4>
-                      <div className="address">
+                      <div className="address px-3">
                         <ul>
                           <li>
                             <div className="icon">
@@ -1291,8 +1301,10 @@ const Index: NextPage = () => {
               <div className="container max-w-[1200px]">
                 <div className="footer-bottom-box">
                   <div className="row -mx-[15px] flex flex-wrap">
-                    <div className="col-lg-6">
-                      <p className="">© Copyright 2023. All Rights Reserved by Glenn Howard Steinberg.</p>
+                    <div className="col-lg-6 px-6">
+                      <p className="text-[14px]">
+                        © Copyright 2023. All Rights Reserved by Glenn Howard Steinberg.
+                      </p>
                     </div>
                     <div className="col-lg-6 link text-right"></div>
                   </div>
@@ -2120,6 +2132,39 @@ const Index: NextPage = () => {
             font-family: 'Poppins', sans-serif;
             font-weight: 600 !important;
             color: #232323;
+          }
+        }
+
+        @media only screen and (max-width: 767px) {
+          footer .footer-bottom-box {
+            padding: 30px 0;
+            padding-right: 0;
+            text-align: center;
+            border-top: 1px solid rgba(255, 255, 255, 0.3);
+          }
+        }
+        @media only screen and (max-width: 767px) {
+          footer .footer-bottom .text-right {
+            text-align: center !important;
+            margin-top: 15px;
+          }
+          footer .footer-bottom-box::after {
+            position: absolute;
+            display: none;
+            right: 0;
+            top: 0;
+            content: '';
+            height: 100%;
+            width: 400%;
+            background: #24282b;
+            z-index: -1;
+            opacity: 0.8;
+            clip-path: polygon(0 0, 99% 0, 100% 100%, 10% 100%);
+          }
+
+          footer p {
+            color: #a0a2a6 !important;
+            line-height: 30px;
           }
         }
       `}</style>
