@@ -10,18 +10,19 @@ import { NextSeo, ArticleJsonLd } from 'next-seo';
 
 
 const SEO = {
-  title: 'Glenn Howard Steinberg -  Broker and Investment Advisor',
-  description: 'Glenn Howard Steinberg -  Broker and Investment Advisor',
+  title: 'Glenn Howard Steinberg - Financial Consultant, Investment Advisor',
+
+  description: 'A Stock Broker, Financial Consultant and an Investment/Portfolio Manager with 18 Years of experience, who has worked with more than 3 prestigious firms in the U.S',
   canonical: 'https://glennsteinberg.com/',
   openGraph: {
     type: 'website',
     url: 'https://www.glennsteinberg.com/',
-    title: 'Glenn Howard Steinberg -  Broker and Investment Advisor',
-    description: 'Glenn Howard Steinberg -  Broker and Investment Advisor',
+    title: 'Glenn Howard Steinberg - Financial Consultant, Investment Advisor',
+    description: 'A Stock Broker, Financial Consultant and an Investment/Portfolio Manager with 18 Years of experience, who has worked with more than 3 prestigious firms in the U.S',
     images: [
       {
-        url: 'https://www.glennsteinberg.com/new_assets/Subject.png',
-        alt: 'Glenn Howard Steinberg - Broker and Investment Advisor',
+        url: 'https://www.glennsteinberg.com/new_assets/main_img.jpeg',
+        alt: 'Glenn Howard Steinberg - Financial Consultant, Investment Advisor',
       },
     ],
     site_name: 'Glenn Howard Steinberg',
@@ -53,7 +54,7 @@ const Index: NextPage = () => {
           authorName="Glenn Howard Steinberg"
           dateModified="2023-01-01"
           datePublished="2023-01-01"
-          description="Glenn Howard Steinberg -  Broker and Investment Advisor"
+          description="A Stock Broker, Financial Consultant and an Investment/Portfolio Manager with 18 Years of experience, who has worked with more than 3 prestigious firms in the U.S"
           images={['https://www.glennsteinberg.com/new_assets/Subject.png']}
           publisherName="Glenn Howard Steinberg"
           title="Glenn Howard Steinberg -  Broker and Investment Advisor"
@@ -63,11 +64,11 @@ const Index: NextPage = () => {
 
       <Head>
         <title>Glenn Howard Steinberg</title>
-        <meta name="author" content="Glenn Howard Steinberg -  Broker and Investment Advisor" />
-        <meta name="description" content="Broker and Investment Advisor. Glenn Howard Steinberg possesses the level of detail needed to serve high-net-worth clients in advanced wealth management/investment topics such as portfolio management, retirement planning, risk management, tax minimization, charitable and estate planning services, planning for closely held business owners, and planning for executives." />
+        <meta name="author" content="Glenn Howard Steinberg - Financial Consultant, Investment Advisor" />
+        <meta name="description" content="A Stock Broker, Financial Consultant and an Investment/Portfolio Manager with 18 Years of experience, who has worked with more than 3 prestigious firms in the U.S" />
         <meta property="og:locale" content="en_US" />
         <meta property="og:type" content="article" />
-        <meta property="og:title" content="Glenn Howard Steinberg" />
+        <meta property="og:title" content="A Stock Broker, Financial Consultant and an Investment/Portfolio Manager with 18 Years of experience, who has worked with more than 3 prestigious firms in the U.S" />
         <meta property="og:url" content="https://www.http://glennsteinberg.com/" />
         <meta property="og:url" content="https://www.glennsteinberg.com/" />
         <link rel="icon" href="/favicon.ico" />
@@ -83,7 +84,7 @@ const Index: NextPage = () => {
               <div className="align-center flex flex-col justify-center pt-[10%] md:flex-row md:justify-evenly">
                 <div className="col-lg-6 basis-1/2">
                   <div className="content flex flex-col items-center justify-center pt-32">
-                    <h4 data-animation="animated slideInLeft">Broker, Investment Advisor</h4>
+                    <h4 data-animation="animated slideInLeft">Financial Consultant, Investment Advisor</h4>
                     <h2
                       data-animation="animated slideInRight"
                       className="text-center text-[36px] md:text-[45px]"
@@ -212,7 +213,7 @@ const Index: NextPage = () => {
                                 </div>
 
                                 <div className="flex flex-col items-center justify-center">
-                                  <div className="z-40 mr-[30px] h-[191px] w-[340px]  rounded-[7px] bg-[url('/images/stock-market.jpg')] bg-cover bg-center"></div>
+                                  <div className="z-40 mr-[30px] h-[191px] w-[340px]  rounded-[7px] bg-[url('/images/portfolio_mgt.jpg')] bg-cover bg-center"></div>
                                   <div className="owl-item active relative -z-40 mt-[-60px]  mr-[30px] box-border h-[300px] w-[370px] rounded-[7px] bg-[#24282b] p-[30px]">
                                     <div className="item absolute flex flex-col items-center justify-center">
                                       <div className="info mt-20">
@@ -817,7 +818,7 @@ const Index: NextPage = () => {
                             ></path>
                           </g>
                         </svg>
-                        <p className="pt-4 text-center text-xs">+546ZE6918</p>
+                        <p className="pt-4 text-center text-xs">+1 719-924-5057</p>
                       </li>
                       <li className="flex items-center gap-4">
                         <svg
@@ -856,7 +857,7 @@ const Index: NextPage = () => {
                             </g>
                           </g>
                         </svg>
-                        <p className="pt-4 text-center text-xs">1100 - 1800 American BLVD</p>
+                        <p className="pt-4 text-center text-xs">1100-1800 American BLVD, Pennington NJ 08534</p>
                       </li>
 
                       <li className="flex items-center gap-4">
@@ -890,9 +891,9 @@ const Index: NextPage = () => {
 
                       <li className="flex items-center gap-4">
                         <p className="text-xs">
-                          Learn more about an advisor's background on <br />
-                          <Link href="https://brokercheck.finra.org/individual/summary/4855320">
-                            <a className="underline" target="_blank">
+                          Learn more about my background on <br />
+                          <Link href="https://files.brokercheck.finra.org/individual/individual_4855320.pdf">
+                            <a className="custom-link" target="_blank">
                               {'HERE'}
                             </a>
                           </Link>
@@ -1045,7 +1046,7 @@ const Index: NextPage = () => {
                             ></path>
                           </g>
                         </svg>
-                        <p className="pt-4 text-center text-xs">+546ZE6918</p>
+                        <p className="pt-4 text-center text-xs">+1 719-924-5057</p>
                       </li>
                       <li className="flex items-center gap-4">
                         <svg
@@ -1084,7 +1085,7 @@ const Index: NextPage = () => {
                             </g>
                           </g>
                         </svg>
-                        <p className="pt-4 text-center text-xs">1100 - 1800 American BLVD</p>
+                        <p className="pt-4 text-center text-xs">1100-1800 American BLVD, Pennington NJ 08534</p>
                       </li>
 
                       <li className="flex items-center gap-4">
@@ -1118,9 +1119,9 @@ const Index: NextPage = () => {
 
                       <li className="flex items-center gap-4">
                         <p className="text-xs">
-                          Learn more about an advisor's background <br />
-                          <Link href="https://brokercheck.finra.org/individual/summary/4855320">
-                            <a className="underline" target="_blank">
+                          Learn more about my background <br />
+                          <Link href="https://files.brokercheck.finra.org/individual/individual_4855320.pdf">
+                            <a className="custom-link"  target="_blank">
                               {'HERE'}
                             </a>
                           </Link>
@@ -2096,6 +2097,12 @@ const Index: NextPage = () => {
           padding-right: 80px;
           position: relative;
           z-index: 1;
+        }
+
+        .custom-link {
+          color: blue; /* Change to the desired color */
+          text-decoration: underline;
+          cursor: pointer; /* Optional: Change cursor style to indicate a link */
         }
 
         footer .footer-bottom-box::after {
