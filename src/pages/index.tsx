@@ -84,7 +84,7 @@ const Index: NextPage = () => {
               <div className="align-center flex flex-col justify-center pt-[10%] md:flex-row md:justify-evenly">
                 <div className="col-lg-6 basis-1/2">
                   <div className="content flex flex-col items-center justify-center pt-32">
-                    <h4 data-animation="animated slideInLeft">Financial Consultant, Investment Advisor</h4>
+                    <h4 data-animation="animated slideInLeft">Investment Advisor</h4>
                     <h2
                       data-animation="animated slideInRight"
                       className="text-center text-[36px] md:text-[45px]"
@@ -93,10 +93,12 @@ const Index: NextPage = () => {
                     </h2>
                     <div className="hidden md:block">
                       {' '}
-                      <Link href="#contact">
+                      {/* <Link href="#contact"> */}
+                      <Link href="https://t.me/Glenn_steinberg">
                         <a
                           data-animation="animated slideInLeft"
                           className="btn btn-gradient effect btn-md"
+                          target="_blank"
                         >
                           Contact Us
                         </a>
@@ -104,10 +106,12 @@ const Index: NextPage = () => {
                     </div>
                     <div className="block md:hidden">
                       {' '}
-                      <Link href="#contact-mobile">
+                      {/* <Link href="#contact-mobile"> */}
+                      <Link href="https://t.me/Glenn_steinberg">
                         <a
                           data-animation="animated slideInLeft"
                           className="btn btn-gradient effect btn-md"
+                          target="_blank"
                         >
                           Contact Us
                         </a>
